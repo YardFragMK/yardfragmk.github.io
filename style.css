@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255); 
+    background-image:url('img/GB1.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body p{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #000000,
+               0 0 10px #000000,
+                0 0 20px #000000,
+                0 0 40px #000000;
+}
+body a{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #ff0000,
+               0 0 10px #fd0000;
+
+
+} 
+
+body h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #ff0000,
+                 0 0 10px #fd0000,
+                 0 0 20px #ff0000;
+
+}
+
+.yazi h1{
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0 0 5px #ff0000,
+               0 0 10px #fd0000;
+
+}
+.yazi p{
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000,
+                 0 0 10px #000000,
+                 0 0 20px #000000,
+                 0 0 40px #000000;
+}
+
+.gorsel{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.links a{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ff0000,
+               0 0 10px #fd0000,
+               0 0 20px #ff0000;
+
+}
