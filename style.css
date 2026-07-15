@@ -1,10 +1,10 @@
 body{
-    background-color: black;
     color: rgb(255, 255, 255); 
     background-image:url('img/GB1.png'); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin:0;
 }
 
 body p{
@@ -58,4 +58,64 @@ body h1{
                0 0 10px #fd0000,
                0 0 20px #ff0000;
 
+}
+
+.container{
+    width: 1000px;
+    margin: 20px auto;
+    background: rgb(0, 0, 0);
+}
+
+header img{
+    width: 100%;
+    height: 150px;
+    display: block;
+}
+.main{
+    display: flex;
+}
+
+.left{
+    width: 200px;
+    background: #000000;
+    padding: 15px;
+}
+.content{
+    width: 500px;
+    background: #1d0300;
+    padding: 20px;
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+.right{
+    width: 200px;
+    background: #000000;
+    color: white;
+    padding: 15px;
+}
+
+
+.kutu{
+    width: 500px;               /* Kutunun genişliği */
+    border: 2px solid #360000;  /* Çerçeve */
+    background: #0b0b0b;        /* Siyah arka plan */
+    margin: 20px auto;          /* Ortala */
+}
+
+.kutu-baslik{
+    background: #820000;        /* Üst şerit */
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+.kutu-icerik{
+    padding: 20px;
+    min-height: 180px;          /* Kutunun yüksekliği */
+    color: #ff0000;
+}
+
+
+.kutu-icerik a{
+    color: white;
 }
