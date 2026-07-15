@@ -53,8 +53,6 @@ body h1{
 }
 
 .container{
-    width: 1000px;
-    margin: 20px auto;
     background: rgb(0, 0, 0);
 }
 
@@ -73,7 +71,7 @@ header img{
     padding: 15px;
 }
 .content{
-    width: 700px;
+    width: 950px;
     background: #1d0300;
     padding: 20px;
     min-width: 0;
